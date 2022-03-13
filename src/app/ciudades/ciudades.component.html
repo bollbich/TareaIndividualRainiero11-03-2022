@@ -1,9 +1,9 @@
 <h1>-------------------------------------------</h1>
 <h1>listado de Ciudades</h1>
-<button (click)="BorrarCiudadArriba()">Borrar un ciudad arriba</button>
-<button (click)="BorrarCiudad()">Borrar un ciudad abajo slice</button>
-<button (click)="BorrarCiudadAbajo()">Borrar un ciudad abajo pop</button>
-<button (click)="RecargarCiudades()">Recargar los ciudades</button>
+<button (click)="BorrarCiudadArriba()">Borrar una ciudad arriba</button>
+<button (click)="BorrarCiudad()">Borrar una ciudad abajo slice</button>
+<button (click)="BorrarCiudadAbajo()">Borrar una ciudad abajo pop</button>
+<button (click)="RecargarCiudades()">Recargar las ciudades</button>
 <h2>Listado de ciudades: {{ciudades.length}}</h2>
 
 
@@ -13,9 +13,9 @@
   </li>
 </ul>
 
-<h2>Ultimo ciudad borrado: {{ciudadBorrada}}</h2>
+<h2>Ultima ciudad borrada: {{ciudadBorrada}}</h2>
 
-<h2>Listado de herores borrados: {{ciudadesBorradas.length}}</h2>
+<h2>Listado de ciudades borradas: {{ciudadesBorradas.length}}</h2>
 
 <ul>
   <li *ngFor="let item of ciudadesBorradas; let i = index">
